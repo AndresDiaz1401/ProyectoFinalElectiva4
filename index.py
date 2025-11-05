@@ -135,7 +135,7 @@ if st.button("Predecir"):
     resultado = predecir_modelo(modelo_usar, input_modelo)
     
     # --- Pestañas dinámicas ---
-    tabs = st.tabs(["Resultados", "Métricas", "Matriz de Confusión"])
+    tabs = st.tabs(["Resultados", "Métricas"])
     
     # Tab 1: Resultados
     with tabs[0]:
